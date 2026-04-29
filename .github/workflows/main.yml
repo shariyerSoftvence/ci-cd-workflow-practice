@@ -11,3 +11,5 @@ jobs:
       steps:
          - name: shazan
            run: echo "Shazan 1st github action workflow"
+         - name: priya
+           run: echo "Priya 2nd github action workflow"
