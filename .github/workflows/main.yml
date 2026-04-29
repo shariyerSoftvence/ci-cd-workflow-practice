@@ -1,0 +1,13 @@
+name : shariyerShazan
+
+on:
+   push: 
+      branches: [main]
+
+jobs:
+   firstJob: 
+      runs-on: ubuntu-latest
+
+      steps:
+         - name: shazan
+           run: echo "Shazan 1st github action workflow"
